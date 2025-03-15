@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/stp.h>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <keys_de.h>
 
 / {
     behaviors {
@@ -28,11 +29,11 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                            &none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
-        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
-        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &kp ESC   &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp DEL
+        &kp TAB   &kp J     &kp D    &kp U    &kp A      &kp X  &none                                                            &none &kp P  &kp H  &kp L     &kp M    &kp W    &kp DE_SZ
+        &kp BSPC  &kp C     &kp T    &kp I    &kp E      &kp O  &none           &kp LCTRL &kp LGUI &kp RGUI  &kp RCTRL           &none &kp B  &kp N  &kp R     &kp S    &kp G    &kp Q
+        &kp LALT  &kp F     &kp V    &kp DE_U_UMLAUT &kp DE_A_UMLAUT &kp DE_O_UMLAUT       &mo 2 &mo 2                           &kp Y  &kp Z  &kp COMMA &kp DOT  &kp K &kp RALT
+        &mo 2     &kp HOME &kp END &kp LEFT &kp RIGHT                &kp ENTER &kp LSHFT   &mo 2 &mo 2 &kp RSHFT &kp SPACE              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
     };
     keypad {
