@@ -32,8 +32,8 @@
         &kp ESC  &kp N1   &kp N2   &kp N3          &kp N4          &kp N5          &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9    &kp N0    &kp DEL
         &kp TAB  &kp J    &kp D    &kp U           &kp A           &kp X           &none                                                            &none &kp P  &kp H  &kp L     &kp M     &kp W     &kp DE_SZ
         &kp BSPC &kp C    &kp T    &kp I           &kp E           &kp O           &none            &kp LCTRL &kp LGUI &kp RGUI &kp RCTRL           &none &kp B  &kp N  &kp R     &kp S     &kp G     &kp Q
-        &kp LALT &kp F    &kp V    &kp DE_U_UMLAUT &kp DE_A_UMLAUT &kp DE_O_UMLAUT                            &mo 2    &mo 2                              &kp Y  &kp Z  &kp COMMA &kp DOT   &kp K     &kp RALT
-        &mo 2    &kp HOME &kp END  &kp LEFT        &kp RIGHT                              &kp ENTER &kp LSHFT &mo 3    &mo 3    &kp RSHFT &kp SPACE              &kp UP &kp DOWN  &kp PG_UP &kp PG_DN &mo 2
+        &kp LALT &kp F    &kp V    &kp DE_U_UMLAUT &kp DE_A_UMLAUT &kp DE_O_UMLAUT                            &mo 4    &mo 4                              &kp Y  &kp Z  &kp COMMA &kp DOT   &kp K     &kp RALT
+        &mo 2    &kp HOME &kp END  &kp LEFT        &kp RIGHT                              &kp ENTER &kp LSHFT &mo 5    &mo 5    &kp RSHFT &kp SPACE              &kp UP &kp DOWN  &kp PG_UP &kp PG_DN &mo 2
       >;
     };
     keypad {
@@ -70,9 +70,9 @@
       display-name = "Red";    
       bindings = <
         &kp ESC  &kp N1   &kp N2   &kp N3          &kp N4          &kp N5          &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9    &kp N0    &kp DEL
-        &kp TAB  &kp none    &kp DE_UNDER    &kp DE_LBKT           &kp DE_RBKT           &kp DE_CARET           &none                                                            &none &kp P  &kp H  &kp L     &kp M     &kp W     &kp DE_SZ
-        &kp BSPC &kp DE_BSLH    &kp DE_FSLH    &kp DE_LBRC          &kp DE_RBRC           &kp DE_STAR           &none            &kp LCTRL &kp LGUI &kp RGUI &kp RCTRL           &none &kp B  &kp N  &kp R     &kp S     &kp G     &kp Q
-        &kp LALT &kp DE_HASH    &kp DE_DLLR    &kp DE_PIPE &kp DE_TILDE &kp DE_GRAVE                            &mo 2    &mo 2                              &kp Y  &kp Z  &kp COMMA &kp DOT   &kp K     &kp RALT
+        &kp TAB  &none    &kp DE_UNDER    &kp DE_LBKT           &kp DE_RBKT           &kp DE_CARET           &none                                                            &none &kp DE_EXCL  &kp DE_LT  &kp DE_GT     &kp DE_EQUAL     &kp DE_AMPS     &none
+        &kp BSPC &kp DE_BSLH    &kp DE_FSLH    &kp DE_LBRC          &kp DE_RBRC           &kp DE_STAR           &none            &kp LCTRL &kp LGUI &kp RGUI &kp RCTRL           &none &kp DE_QMARK  &kp DE_LPAR  &kp DE_RPAR     &kp DE_MINUS     &kp DE_COLON     &kp DE_AT
+        &kp LALT &kp DE_HASH    &kp DE_DLLR    &kp DE_PIPE &kp DE_TILDE &kp DE_GRAVE                            &mo 2    &mo 2                              &kp DE_PLUS  &kp DE_PRCNT  &kp DE_DQT &kp DE_SQT   &kp DE_COLON     &kp RALT
         &mo 2    &kp HOME &kp END  &kp LEFT        &kp RIGHT                              &kp ENTER &kp LSHFT &mo 3    &mo 3    &kp RSHFT &kp SPACE              &kp UP &kp DOWN  &kp PG_UP &kp PG_DN &mo 2
       >;
     };
