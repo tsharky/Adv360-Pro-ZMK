@@ -5,7 +5,6 @@
 #include <dt-bindings/zmk/stp.h>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <keys_de.h>
 
 / {
     behaviors {
