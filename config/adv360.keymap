@@ -28,11 +28,11 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB   &kp J     &kp D    &kp U    &kp A      &kp X  &none                                                            &none &kp P  &kp H  &kp L     &kp M    &kp W    &kp BSLH
-        &kp ESC   &kp C     &kp T    &kp I    &kp E      &kp O  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp B  &kp N  &kp R     &kp S    &kp G    &kp Q
-        &kp LSHFT &kp F     &kp V    &kp U    &kp A      &kp O                            &kp HOME &kp PG_UP                           &kp Y  &kp Z  &kp COMMA &kp DOT  &kp K    &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &kp ESC  &kp N1   &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp DEL
+        &kp TAB  &kp J    &kp D    &kp U    &kp A      &kp X  &none                                                            &none &kp P  &kp H  &kp L     &kp M    &kp W    &kp S
+        &kp BSPC &kp C    &kp T    &kp I    &kp E      &kp O  &none           &kp LCTRL &kp LGUI &kp RGUI  &kp RCTRL           &none &kp B  &kp N  &kp R     &kp S    &kp G    &kp Q
+        &kp LALT &kp F    &kp V    &kp U    &kp A      &kp O                            &kp HOME &kp PG_UP                           &kp Y  &kp Z  &kp COMMA &kp DOT  &kp K    &kp RALT
+        &mo 2    &kp HOME &kp END  &kp LEFT &kp RIGHT                &kp ENTER &kp LSHFT   &kp END  &kp PG_DN &kp RSHFT &kp SPACE              &kp UP &kp DOWN  &kp PG_UP &kp PG_DN &mo 2
       >;
     };
     keypad {
